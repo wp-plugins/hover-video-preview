@@ -9,7 +9,7 @@
  * Plugin Name:       Hover Video Preview
  * Plugin URI:        http://hvp4wp.com
  * Description:       Provides a shortcode that displays an auto-playing YouTube video in a tooltip when a user hovers over any element.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Jason Pancake
  * Author URI:        http://jasonpancake.com
  * License:           GPL-2.0+

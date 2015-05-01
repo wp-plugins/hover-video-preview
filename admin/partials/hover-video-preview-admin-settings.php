@@ -24,7 +24,7 @@
         <div class="hvp-box">
             <h3 class="hvp-box-title">Looking for Support</h3>
             <p>
-                Make sure to look at the <a href="">frequently asked questions</a> or use the <a href="">support forums</a> on
+                Make sure to look at the <a href="https://wordpress.org/plugins/hover-video-preview/faq/">frequently asked questions</a> or use the <a href="https://wordpress.org/support/plugin/hover-video-preview">support forums</a> on
                 WordPress.org.
             </p>
         </div>
@@ -33,16 +33,16 @@
             <h3 class="hvp-box-title">Show a token of your appreciation</h3>
             <ul>
                 <li>
-                    <a href="">Leave a &#9733;&#9733;&#9733;&#9733;&#9733; plugin review on WordPress.org</a>
+                    <a href="https://wordpress.org/support/view/plugin-reviews/hover-video-preview">Leave a &#9733;&#9733;&#9733;&#9733;&#9733; plugin review on WordPress.org</a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/?status=I+am+using+Hover+Video+Preview+for+WordPress+by+%40jasonpancake+-+it+is+great%21+%3E+https%3A%2F%2Fhvp4wp.com%2F">Tweet about Hover Video Preview</a>
+                    <a href="https://twitter.com/?status=I+am+using+Hover+Video+Preview+for+WordPress+by+%40jasonpancake+-+it+is+great%21+%3E+http%3A%2F%2Fhvp4wp.com%2F">Tweet about Hover Video Preview</a>
                 </li>
                 <li>
-                    Review the plugin on your blog and link to <a href="">the plugin page</a>.
+                    Review the plugin on your blog and link to <a href="http://hvp4wp.com">the plugin page</a>.
                 </li>
                 <li>
-                    <a href="">Vote "works" on the WordPress.org plugin page</a>
+                    <a href="https://wordpress.org/plugins/hover-video-preview/">Vote "works" on the WordPress.org plugin page</a>
                 </li>
             </ul>
         </div>

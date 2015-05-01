@@ -14,7 +14,7 @@ Quickly and easily add an auto-playing YouTube video in a tooltip when the user 
 
 = Hover Video Preview for WordPress =
 
-*This plugin makes it very easy to add a video preview tooltip when a user hovers over any element.
+This plugin makes it very easy to add a video preview tooltip when a user hovers over any element.
 
 == Installation ==
 
@@ -30,7 +30,21 @@ Quickly and easily add an auto-playing YouTube video in a tooltip when the user 
 [hover_video_preview provider="youtube" video_id="GeIAXlwVlZc"]<img src="http://placehold.it/200x200.jpg"/>[/hover_video_preview]
 `
 
+== Frequently Asked Questions ==
+
+= Can I request additional features? =
+
+You can request additional features on the support page, find me on twitter and reach out directly, [@jasonpancake](https://twitter.com/jasonpancake), or contact me through my site [http://jasonpancake.com](http://jasonpancake.com).
+
+== Screenshots ==
+
+1. Quickly and easily add an auto-playing video tooltip when a user hovers over an image.
+
 == Changelog ==
+
+= 1.0.1 =
+* Added an FAQ and screenshot to the plugin page
+* Updated the settings page for the plugin
 
 = 1.0.0 =
 * Initial release
