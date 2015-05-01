@@ -1,0 +1,64 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.hvp-content {
+    box-sizing: border-box;
+}
+
+.hvp-sidebar {
+}
+
+.hvp-code {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: .5rem;
+    overflow: scroll;
+}
+
+.hvp-box {
+    margin-bottom: 2rem;
+}
+
+.hvp-box .hvp-box-title {
+    font-size: 1.4em;
+    margin: 1.6em 0 1em;
+    padding: 0 0 6px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Dark Box */
+.hvp-box--dark {
+    background-color: #333;
+    color: #f3f3f3;
+    padding: 20px;
+}
+
+.hvp-box--dark a {
+    color: #f3f3f3;
+    border-bottom: 1px dotted #f3f3f3;
+    text-decoration: none;
+}
+
+.hvp-box--dark .hvp-box-title {
+    color: #f3f3f3;
+    margin: 0;
+    border-bottom: 0;
+}
+
+@media all and (min-width: 70em) {
+    .hvp-content {
+        float: left;
+        width: 67%;
+        padding-right: 2%;
+    }
+
+    .hvp-sidebar {
+        float: left;
+        width: 33%;
+        border-left: 1px solid #ccc;
+        box-sizing: border-box;
+        padding: 0 0 0 2%;
+    }
+}
