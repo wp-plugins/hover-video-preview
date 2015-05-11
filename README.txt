@@ -26,8 +26,14 @@ This plugin makes it very easy to add a video preview tooltip when a user hovers
 
 = Using the shortcode =
 
+**YouTube**
 `
-[hover_video_preview provider="youtube" video_id="GeIAXlwVlZc"]<img src="http://placehold.it/200x200.jpg"/>[/hover_video_preview]
+[hover_video_preview provider="youtube" video_id="GeIAXlwVlZc" mute="0"]<img src="http://placehold.it/200x200.jpg"/>[/hover_video_preview]
+`
+
+**Vimeo**
+`
+[hover_video_preview provider="vimeo" video_id="115494492" mute="1"]<img src="http://placehold.it/200x200.jpg"/>[/hover_video_preview]
 `
 
 == Frequently Asked Questions ==
@@ -41,6 +47,10 @@ You can request additional features on the support page, find me on twitter and 
 1. Quickly and easily add an auto-playing video tooltip when a user hovers over an image.
 
 == Changelog ==
+
+= 1.0.2 =
+* Added support for Vimeo
+* Added ability to mute the video when it first starts playing
 
 = 1.0.1 =
 * Added an FAQ and screenshot to the plugin page

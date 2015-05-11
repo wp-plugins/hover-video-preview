@@ -98,6 +98,7 @@ class Hover_Video_Preview_Public {
 		 */
 
         wp_enqueue_script( 'youtube', '//www.youtube.com/iframe_api', array(), $this->version, false );
+        wp_enqueue_script( 'froogaloop2', '//f.vimeocdn.com/js/froogaloop2.min.js', array(), $this->version, false );
         wp_enqueue_script( 'tooltipster', plugin_dir_url( __FILE__ ) . 'vendor/tooltipster/js/jquery.tooltipster.min.js', array( 'jquery' ), $this->version, false );
         wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/hover-video-preview-public.js', array( 'jquery' ), $this->version, false );
 	}
@@ -122,17 +123,17 @@ class Hover_Video_Preview_Public {
             'video_id' => '',
             'class'    => '',
             'provider' => 'youtube',
+            'mute'     => '0',
         ), $atts );
 
         $id       = $a['id'];
         $video_id = $a['video_id'];
         $class    = $a['class'];
-        $src      = $a['src'];
-        $alt      = $a['alt'];
         $provider = $a['provider'];
+        $mute     = $a['mute'];
 
         return <<< EOT
-            <div id="$id" class="hvp-container $class" data-provider="$provider" data-video-id="$video_id">$content</div>
+            <div id="$id" class="hvp-container $class" data-provider="$provider" data-video-id="$video_id" data-option-mute="$mute">$content</div>
 EOT;
     }
 

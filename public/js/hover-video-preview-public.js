@@ -47,10 +47,27 @@
                             },
                             events: {
                                 'onReady': function(event) {
+                                    if(preview.data('option-mute') == '1') {
+                                        player.mute();
+                                    }
                                     event.target.playVideo();
                                 }
                             }
                         });
+                    }
+                    else if(preview.data('provider') == 'vimeo') {
+                        $('#hvp-player-'+index).html('<iframe id="player-'+index+'" src="https://player.vimeo.com/video/'+preview.data('video-id')+'?api=1&player_id=player-'+index+'&autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+
+                        var iframe = $('#player-'+index)[0],
+                            player = $f(iframe),
+                            status = $('.status');
+
+                            player.addEvent('ready', function() {
+                                if(preview.data('option-mute') == '1') {
+                                    player.api('setVolume', 0);
+                                }
+                                player.api('play');
+                            });
                     }
                 }
             });
